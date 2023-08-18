@@ -15,7 +15,7 @@ public class hooks {
 	
 	@AfterMethod
 	public void quitBrowser() {
-		driver.quit();///
+		driver.quit();////
 	}
 
 }
