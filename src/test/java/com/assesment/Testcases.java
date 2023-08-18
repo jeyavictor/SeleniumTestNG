@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-public class pirate extends hooks{
+public class Testcases extends hooks{
     @Test(enabled =true)
     public void test_check_query_input_and_search_button_existence() {
         WebElement searchInput = driver.findElement(By.id("search-input"));
